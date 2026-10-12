@@ -1,0 +1,2 @@
+ultralytics==8.4.175
+opencv-python
