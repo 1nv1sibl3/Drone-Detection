@@ -1,8 +1,18 @@
 # Drone Detection using YOLO26m
 
 A single-class drone object detector trained using the
-Drone YOLO Detection dataset from Kaggle. Task given in 
-Drone Club MITAOE for learning purpose/
+Drone YOLO Detection dataset from Kaggle. Task given in
+Drone Club MITAOE for learning purpose.
+
+## Detection Demo
+
+Here is an example output from the trained model:
+
+[**▶ Watch the detected video**](examples/detected_VID-20261007-WA0017.mp4)
+
+[![Example detection frame](examples/detected_original.jpg)](examples/detected_VID-20261007-WA0017.mp4)
+
+> GitHub README Markdown does not reliably embed/play MP4 files inline. The link above opens the video file in GitHub, and the thumbnail links to it.
 
 ## Model
 
@@ -30,6 +40,9 @@ validation, so results on independent footage may differ.
 
 ```text
 Drone-Detection/
+├── examples/
+│   ├── detected_VID-20261007-WA0017.mp4
+│   └── detected_original.jpg
 ├── models/
 │   └── best.pt
 ├── src/
